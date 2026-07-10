@@ -222,10 +222,30 @@
    color: var(--global-theme-color);
  }
  
- /* Make CV date badge text readable */
- .cv .badge,
- .cv .rounded-pill,
- .cv span.badge,
- .cv span.rounded-pill {
-   color: #ffffff !important;
- }
+/* CV date badge text color */
+body .cv .badge,
+body .cv .rounded-pill,
+body .post .cv .badge,
+body .post .cv .rounded-pill,
+body .page .cv .badge,
+body .page .cv .rounded-pill {
+  color: #ffffff !important;
+}
+
+/* CV location text color */
+body .cv .location,
+body .cv .location *,
+body .cv .date-location,
+body .cv .date-location *,
+body .cv .timeline-location,
+body .cv .timeline-location *,
+body .cv small,
+body .cv .text-muted {
+  color: #6c757d !important;
+}
+
+/* Re-apply date badge text as white after location override */
+body .cv .badge,
+body .cv .rounded-pill {
+  color: #ffffff !important;
+}
