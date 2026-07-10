@@ -249,3 +249,41 @@ body .cv .badge,
 body .cv .rounded-pill {
   color: #ffffff !important;
 }
+
+/* Hide only the "ctrl k" navbar shortcut text, keep search icon visible */
+nav.navbar #search-toggle,
+nav.navbar .search-toggle,
+nav.navbar .search-button,
+nav.navbar .nav-search,
+nav.navbar [aria-label="Search"],
+nav.navbar [title="Search"] {
+  font-size: 0 !important;
+}
+
+/* Restore the magnifier icon inside the search button */
+nav.navbar #search-toggle i,
+nav.navbar #search-toggle svg,
+nav.navbar .search-toggle i,
+nav.navbar .search-toggle svg,
+nav.navbar .search-button i,
+nav.navbar .search-button svg,
+nav.navbar .nav-search i,
+nav.navbar .nav-search svg,
+nav.navbar [aria-label="Search"] i,
+nav.navbar [aria-label="Search"] svg,
+nav.navbar [title="Search"] i,
+nav.navbar [title="Search"] svg {
+  font-size: 1rem !important;
+  width: 1rem !important;
+  height: 1rem !important;
+  color: var(--global-text-color) !important;
+}
+
+/* Extra cleanup for shortcut spans/kbd if present */
+nav.navbar kbd,
+nav.navbar .search-shortcut,
+nav.navbar .keyboard-shortcut,
+nav.navbar .shortcut,
+nav.navbar .search-key {
+  display: none !important;
+}
