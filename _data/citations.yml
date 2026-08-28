@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-19'
+  last_updated: '2026-08-28'
 papers:
   Lh4x5swAAAAJ:2osOgNQ5qMEC:
-    citations: 78
+    citations: 80
     title: Evaluation of machine learning algorithms for groundwater quality modeling
     year: '2023'
   Lh4x5swAAAAJ:4JMBOYKVnBMC:
@@ -14,11 +14,11 @@ papers:
     title: 'Utilizing Extreme Precipitation to Mitigate Water Scarcity in Arid Areas: A Hydrological Approach for Natural and Artificial Recharge'
     year: '2024'
   Lh4x5swAAAAJ:IjCSPb-OGe4C:
-    citations: 0
+    citations: 1
     title: The Impact of Extreme Precipitation Events on The Terrestrial Water Storage in The Arabian Peninsula
     year: '2022'
   Lh4x5swAAAAJ:M3ejUd6NZC8C:
-    citations: 23
+    citations: 25
     title: "Optimization of floodwater redistribution from Lake Nasser could recharge Egypt\u2019s aquifers and mitigate its excessive floods"
     year: '2024'
   Lh4x5swAAAAJ:QIV2ME_5wuYC:
@@ -90,11 +90,11 @@ papers:
     title: Climate-extreme modeling framework for sustainable flood management in the Arabian Peninsula
     year: '2025'
   Lh4x5swAAAAJ:isC4tDSrTZIC:
-    citations: 5
+    citations: 7
     title: Nile basin flow regimes under 21st century climate variability
     year: '2025'
   Lh4x5swAAAAJ:mB3voiENLucC:
-    citations: 5
+    citations: 6
     title: Intensifying tropical cyclones in the Arabian Sea replenish depleting aquifers
     year: '2025'
   Lh4x5swAAAAJ:mVmsd5A6BfQC:
